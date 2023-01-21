@@ -42,4 +42,4 @@ You can find the MacOS installation guide at the following link, [`click here`](
 - [Dortania](https://dortania.github.io/OpenCore-Install-Guide/)
 - [hackintosh-forum.de](https://hackintosh-forum.de/)
 - [SuhailSherief](https://github.com/SuhailSherief/ThinkPad-x260-macOS-OpenCore/)
-- [/x90skysn3k](https://github.com/x90skysn3k/x260-lenovo-opencore/)
+- [x90skysn3k](https://github.com/x90skysn3k/x260-lenovo-opencore/)
