@@ -27,6 +27,7 @@ You can find the MacOS installation guide at the following link, [`click here`](
 - Power Management `BigSur` `Monterey` `Ventura`
 - Sleep, Shutdown, Restart `BigSur` `Monterey` `Ventura`
 - Audio Speaker & Earphone `BigSur` `Monterey` `Ventura`
+- WiFi with HeliPort App `BigSur`  `Monterey` `Ventura`
 - Bluetooth `BigSur`  `Monterey` `Ventura`
 - Trackpad, Trackball, Gestures `BigSur` `Monterey` `Ventura`
 - Battery Indicator (Single and Dual Battery) `BigSur` `Monterey` `Ventura`
