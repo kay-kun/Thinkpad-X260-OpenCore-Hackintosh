@@ -9,6 +9,8 @@ Wireless Card | Intel AC-8260 Dual Band + Bluetooth
 Bootloader | OpenCore
 Bootloader Ver. | v0.8.9
 
+There a planed upgrades like 16 or 32 GB RAM, Fenvi Broadcom WiFi Card for nativ Wifi and BT and a NVME SSD
+
 ### Before you start
 Follow dortania guide on how to create a recovery usb for MacOS installation.
 You can find the MacOS installation guide at the following link, [`click here`](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/winblows-install.html#downloading-macos)
