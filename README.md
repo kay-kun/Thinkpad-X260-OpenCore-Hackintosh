@@ -5,7 +5,7 @@ Processor | Intel Core i7-6500U
 Integrated Graphics | Intel HD Graphics 520
 Memory | SK-Hynix 8GB DDR4
 Storage | 256GB Intel SATA SSD
-Wireless Card | Intel AC-8260 Dual Band + Bluetooth
+Wireless Card | Dell DW1560 (BCM94352Z) 802.11ac WiFi + BT Card
 Bootloader | OpenCore
 Bootloader Ver. | v0.8.9
 
@@ -29,7 +29,7 @@ You can find the MacOS installation guide at the following link, [`click here`](
 - Power Management `BigSur` `Monterey` `Ventura`
 - Sleep, Shutdown, Restart `BigSur` `Monterey` `Ventura`
 - Audio Speaker & Earphone `BigSur` `Monterey` `Ventura`
-- WiFi with HeliPort App `BigSur`  `Monterey` `Ventura`
+- WiFi `BigSur`  `Monterey` `Ventura`
 - Bluetooth `BigSur`  `Monterey` `Ventura`
 - Trackpad, Trackball, Gestures `BigSur` `Monterey` `Ventura`
 - Battery Indicator (Single and Dual Battery) `BigSur` `Monterey` `Ventura`
@@ -37,6 +37,9 @@ You can find the MacOS installation guide at the following link, [`click here`](
 - Dock station `BigSur` `Monterey` `Ventura`
 - CardReader `BigSur` `Monterey` `Ventura`
 - etc
+
+## Some little Problems!!!
+Since Ventura there are sometimes graphics glitches and the brightness control is only available after a sleep cycle!
 
 ## What's not Working?
 - NOTHING!!!
