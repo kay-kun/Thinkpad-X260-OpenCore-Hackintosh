@@ -40,14 +40,6 @@
                 </dict>
                 <dict>
                     <key>Comment</key>
-                    <string>Notebook brightness fixup</string>
-                    <key>Enabled</key>
-                    <true/>
-                    <key>Path</key>
-                    <string>SSDT-PNLF.aml</string>
-                </dict>
-                <dict>
-                    <key>Comment</key>
                     <string>ThinkSMC</string>
                     <key>Enabled</key>
                     <true/>
@@ -102,11 +94,171 @@
                     <key>Path</key>
                     <string>SSDT-DYTC.aml</string>
                 </dict>
+                <dict>
+                    <key>Comment</key>
+                    <string>Notebook brightness fixup</string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>Path</key>
+                    <string>SSDT-PNLF.aml</string>
+                </dict>
+                <dict>
+                    <key>Comment</key>
+                    <string>HPET _CRS (Needs _CRS to XCRS Rename)</string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>Path</key>
+                    <string>SSDT-HPET.aml</string>
+                </dict>
+                <dict>
+                    <key>Comment</key>
+                    <string>PMCR for native 300-series NVRAM</string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>Path</key>
+                    <string>SSDT-PMC.aml</string>
+                </dict>
+                <dict>
+                    <key>Comment</key>
+                    <string>Generic USBX device for USB power properties</string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>Path</key>
+                    <string>SSDT-USBX.aml</string>
+                </dict>
+                <dict>
+                    <key>Comment</key>
+                    <string></string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>Path</key>
+                    <string>SSDT-ALS0.aml</string>
+                </dict>
             </array>
             <key>Delete</key>
             <array/>
             <key>Patch</key>
             <array>
+                <dict>
+                    <key>Base</key>
+                    <string></string>
+                    <key>BaseSkip</key>
+                    <integer>0</integer>
+                    <key>Comment</key>
+                    <string>HPET _CRS to XCRS Rename</string>
+                    <key>Count</key>
+                    <integer>0</integer>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>Find</key>
+                    <data>IF9DUlM=</data>
+                    <key>Limit</key>
+                    <integer>0</integer>
+                    <key>Mask</key>
+                    <data></data>
+                    <key>OemTableId</key>
+                    <data>AAAAAA==</data>
+                    <key>Replace</key>
+                    <data>IFhDUlM=</data>
+                    <key>ReplaceMask</key>
+                    <data></data>
+                    <key>Skip</key>
+                    <integer>0</integer>
+                    <key>TableLength</key>
+                    <integer>0</integer>
+                    <key>TableSignature</key>
+                    <data>AAAAAA==</data>
+                </dict>
+                <dict>
+                    <key>Base</key>
+                    <string></string>
+                    <key>BaseSkip</key>
+                    <integer>0</integer>
+                    <key>Comment</key>
+                    <string>PIC IRQ 2 Patch</string>
+                    <key>Count</key>
+                    <integer>0</integer>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>Find</key>
+                    <data>IgQAeQA=</data>
+                    <key>Limit</key>
+                    <integer>0</integer>
+                    <key>Mask</key>
+                    <data></data>
+                    <key>OemTableId</key>
+                    <data>AAAAAA==</data>
+                    <key>Replace</key>
+                    <data>IgAAeQA=</data>
+                    <key>ReplaceMask</key>
+                    <data></data>
+                    <key>Skip</key>
+                    <integer>0</integer>
+                    <key>TableLength</key>
+                    <integer>0</integer>
+                    <key>TableSignature</key>
+                    <data>AAAAAA==</data>
+                </dict>
+                <dict>
+                    <key>Base</key>
+                    <string></string>
+                    <key>BaseSkip</key>
+                    <integer>0</integer>
+                    <key>Comment</key>
+                    <string>TIMR IRQ 0 Patch</string>
+                    <key>Count</key>
+                    <integer>0</integer>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>Find</key>
+                    <data>IgEAeQA=</data>
+                    <key>Limit</key>
+                    <integer>0</integer>
+                    <key>Mask</key>
+                    <data></data>
+                    <key>OemTableId</key>
+                    <data>AAAAAA==</data>
+                    <key>Replace</key>
+                    <data>IgAAeQA=</data>
+                    <key>ReplaceMask</key>
+                    <data></data>
+                    <key>Skip</key>
+                    <integer>0</integer>
+                    <key>TableLength</key>
+                    <integer>0</integer>
+                    <key>TableSignature</key>
+                    <data>AAAAAA==</data>
+                </dict>
+                <dict>
+                    <key>Base</key>
+                    <string></string>
+                    <key>BaseSkip</key>
+                    <integer>0</integer>
+                    <key>Comment</key>
+                    <string>RTC IRQ 8 Patch</string>
+                    <key>Count</key>
+                    <integer>0</integer>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>Find</key>
+                    <data>IgABeQA=</data>
+                    <key>Limit</key>
+                    <integer>0</integer>
+                    <key>Mask</key>
+                    <data></data>
+                    <key>OemTableId</key>
+                    <data>AAAAAA==</data>
+                    <key>Replace</key>
+                    <data>IgAAeQA=</data>
+                    <key>ReplaceMask</key>
+                    <data></data>
+                    <key>Skip</key>
+                    <integer>0</integer>
+                    <key>TableLength</key>
+                    <integer>0</integer>
+                    <key>TableSignature</key>
+                    <data>AAAAAA==</data>
+                </dict>
                 <dict>
                     <key>Base</key>
                     <string></string>
@@ -550,6 +702,25 @@
                     <key>model</key>
                     <string>Sunrise Point-LP PCI Express Root Port #3</string>
                 </dict>
+                <key>PciRoot(0x0)/Pci(0x1C,0x2)/Pci(0x0,0x0)</key>
+                <dict>
+                    <key>AAP,slot-name</key>
+                    <string>WLAN</string>
+                    <key>PinConfigurations</key>
+                    <data>AA==</data>
+                    <key>built-in</key>
+                    <data>AA==</data>
+                    <key>compatible</key>
+                    <string>pci14e4,43a0</string>
+                    <key>device_type</key>
+                    <string>Airport Extreme</string>
+                    <key>model</key>
+                    <string>Dell DW1560 (BCM94352Z) 802.11ac wireless</string>
+                    <key>name</key>
+                    <string>Airport</string>
+                    <key>pci-aspm-default</key>
+                    <integer>0</integer>
+                </dict>
                 <key>PciRoot(0x0)/Pci(0x1F,0x0)</key>
                 <dict>
                     <key>AAPL,slot-name</key>
@@ -603,14 +774,16 @@
                 </dict>
                 <key>PciRoot(0x0)/Pci(0x2,0x0)</key>
                 <dict>
+                    <key>#enable-hdmi20</key>
+                    <data>AQAAAA==</data>
+                    <key>#framebuffer-unifiedmem</key>
+                    <data>AAAAgA==</data>
                     <key>@0,display-dual-link</key>
                     <integer>1</integer>
                     <key>AAPL,ig-platform-id</key>
-                    <data>AAAbWQ==</data>
+                    <data>AAAWWQ==</data>
                     <key>device-id</key>
                     <data>ElkAAA==</data>
-                    <key>enable-hdmi20</key>
-                    <data>AQAAAA==</data>
                     <key>framebuffer-con1-enable</key>
                     <data>AQAAAA==</data>
                     <key>framebuffer-con1-type</key>
@@ -629,8 +802,6 @@
                     <data>AwAAAA==</data>
                     <key>framebuffer-stolenmem</key>
                     <data>AAAwAQ==</data>
-                    <key>framebuffer-unifiedmem</key>
-                    <data>AAAAgA==</data>
                     <key>hda-gfx</key>
                     <string>onboard-1</string>
                     <key>model</key>
@@ -720,6 +891,24 @@
                     <key>Arch</key>
                     <string>Any</string>
                     <key>BundlePath</key>
+                    <string>SMCSuperIO.kext</string>
+                    <key>Comment</key>
+                    <string>V1.3.0</string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>ExecutablePath</key>
+                    <string>Contents/MacOS/SMCSuperIO</string>
+                    <key>MaxKernel</key>
+                    <string></string>
+                    <key>MinKernel</key>
+                    <string></string>
+                    <key>PlistPath</key>
+                    <string>Contents/Info.plist</string>
+                </dict>
+                <dict>
+                    <key>Arch</key>
+                    <string>Any</string>
+                    <key>BundlePath</key>
                     <string>SMCBatteryManager.kext</string>
                     <key>Comment</key>
                     <string>V1.3.0</string>
@@ -738,6 +927,24 @@
                     <key>Arch</key>
                     <string>Any</string>
                     <key>BundlePath</key>
+                    <string>SMCLightSensor.kext</string>
+                    <key>Comment</key>
+                    <string>V1.3.0</string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>ExecutablePath</key>
+                    <string>Contents/MacOS/SMCLightSensor</string>
+                    <key>MaxKernel</key>
+                    <string></string>
+                    <key>MinKernel</key>
+                    <string></string>
+                    <key>PlistPath</key>
+                    <string>Contents/Info.plist</string>
+                </dict>
+                <dict>
+                    <key>Arch</key>
+                    <string>Any</string>
+                    <key>BundlePath</key>
                     <string>WhateverGreen.kext</string>
                     <key>Comment</key>
                     <string>V1.6.3</string>
@@ -745,6 +952,42 @@
                     <true/>
                     <key>ExecutablePath</key>
                     <string>Contents/MacOS/WhateverGreen</string>
+                    <key>MaxKernel</key>
+                    <string></string>
+                    <key>MinKernel</key>
+                    <string></string>
+                    <key>PlistPath</key>
+                    <string>Contents/Info.plist</string>
+                </dict>
+                <dict>
+                    <key>Arch</key>
+                    <string>Any</string>
+                    <key>BundlePath</key>
+                    <string>AppleBacklightSmoother.kext</string>
+                    <key>Comment</key>
+                    <string>V1.0.2</string>
+                    <key>Enabled</key>
+                    <false/>
+                    <key>ExecutablePath</key>
+                    <string>Contents/MacOS/AppleBacklightSmoother</string>
+                    <key>MaxKernel</key>
+                    <string></string>
+                    <key>MinKernel</key>
+                    <string></string>
+                    <key>PlistPath</key>
+                    <string>Contents/Info.plist</string>
+                </dict>
+                <dict>
+                    <key>Arch</key>
+                    <string>Any</string>
+                    <key>BundlePath</key>
+                    <string>BrightnessKeys.kext</string>
+                    <key>Comment</key>
+                    <string>V1.0.2</string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>ExecutablePath</key>
+                    <string>Contents/MacOS/BrightnessKeys</string>
                     <key>MaxKernel</key>
                     <string></string>
                     <key>MinKernel</key>
@@ -918,13 +1161,13 @@
                     <key>Arch</key>
                     <string>Any</string>
                     <key>BundlePath</key>
-                    <string>IntelBTPatcher.kext</string>
+                    <string>Sinetek-rtsx.kext</string>
                     <key>Comment</key>
-                    <string>V2.2.0</string>
+                    <string>V9.0.0</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
-                    <string>Contents/MacOS/IntelBTPatcher</string>
+                    <string>Contents/MacOS/Sinetek-rtsx</string>
                     <key>MaxKernel</key>
                     <string></string>
                     <key>MinKernel</key>
@@ -936,13 +1179,49 @@
                     <key>Arch</key>
                     <string>Any</string>
                     <key>BundlePath</key>
-                    <string>IntelBluetoothFirmware.kext</string>
+                    <string>FeatureUnlock.kext</string>
                     <key>Comment</key>
-                    <string>V2.2.0</string>
+                    <string>V1.1.2</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
-                    <string>Contents/MacOS/IntelBluetoothFirmware</string>
+                    <string>Contents/MacOS/FeatureUnlock</string>
+                    <key>MaxKernel</key>
+                    <string></string>
+                    <key>MinKernel</key>
+                    <string></string>
+                    <key>PlistPath</key>
+                    <string>Contents/Info.plist</string>
+                </dict>
+                <dict>
+                    <key>Arch</key>
+                    <string>Any</string>
+                    <key>BundlePath</key>
+                    <string>AirportBrcmFixup.kext</string>
+                    <key>Comment</key>
+                    <string>V2.1.6</string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>ExecutablePath</key>
+                    <string>Contents/MacOS/AirportBrcmFixup</string>
+                    <key>MaxKernel</key>
+                    <string></string>
+                    <key>MinKernel</key>
+                    <string></string>
+                    <key>PlistPath</key>
+                    <string>Contents/Info.plist</string>
+                </dict>
+                <dict>
+                    <key>Arch</key>
+                    <string>Any</string>
+                    <key>BundlePath</key>
+                    <string>AirportBrcmFixup.kext/Contents/PlugIns/AirPortBrcmNIC_Injector.kext</string>
+                    <key>Comment</key>
+                    <string>V1.0</string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>ExecutablePath</key>
+                    <string></string>
                     <key>MaxKernel</key>
                     <string></string>
                     <key>MinKernel</key>
@@ -972,13 +1251,13 @@
                     <key>Arch</key>
                     <string>Any</string>
                     <key>BundlePath</key>
-                    <string>SMCSuperIO.kext</string>
+                    <string>BrcmFirmwareData.kext</string>
                     <key>Comment</key>
-                    <string>V1.3.0</string>
+                    <string>V2.6.4</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
-                    <string>Contents/MacOS/SMCSuperIO</string>
+                    <string>Contents/MacOS/BrcmFirmwareData</string>
                     <key>MaxKernel</key>
                     <string></string>
                     <key>MinKernel</key>
@@ -990,31 +1269,13 @@
                     <key>Arch</key>
                     <string>Any</string>
                     <key>BundlePath</key>
-                    <string>itlwm.kext</string>
+                    <string>BrcmPatchRAM3.kext</string>
                     <key>Comment</key>
-                    <string>V2.1.0</string>
+                    <string>V2.6.4</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
-                    <string>Contents/MacOS/itlwm</string>
-                    <key>MaxKernel</key>
-                    <string></string>
-                    <key>MinKernel</key>
-                    <string></string>
-                    <key>PlistPath</key>
-                    <string>Contents/Info.plist</string>
-                </dict>
-                <dict>
-                    <key>Arch</key>
-                    <string>Any</string>
-                    <key>BundlePath</key>
-                    <string>Sinetek-rtsx.kext</string>
-                    <key>Comment</key>
-                    <string>V9.0.0</string>
-                    <key>Enabled</key>
-                    <true/>
-                    <key>ExecutablePath</key>
-                    <string>Contents/MacOS/Sinetek-rtsx</string>
+                    <string>Contents/MacOS/BrcmPatchRAM3</string>
                     <key>MaxKernel</key>
                     <string></string>
                     <key>MinKernel</key>
@@ -1063,7 +1324,7 @@
                 <key>DisableRtcChecksum</key>
                 <false/>
                 <key>ExtendBTFeatureFlags</key>
-                <false/>
+                <true/>
                 <key>ExternalDiskIcons</key>
                 <false/>
                 <key>ForceAquantiaEthernet</key>
@@ -1234,7 +1495,7 @@
                     <key>Flavour</key>
                     <string>Auto</string>
                     <key>FullNvramAccess</key>
-                    <true/>
+                    <false/>
                     <key>Name</key>
                     <string>ResetSystem</string>
                     <key>Path</key>
@@ -1256,7 +1517,7 @@
                     <key>Flavour</key>
                     <string>Auto</string>
                     <key>FullNvramAccess</key>
-                    <true/>
+                    <false/>
                     <key>Name</key>
                     <string>OpenShell</string>
                     <key>Path</key>
@@ -1289,7 +1550,7 @@
                     <key>SystemAudioVolume</key>
                     <data>Rg==</data>
                     <key>boot-args</key>
-                    <string>alcid=11 debug=0x100 keepsyms=1 darkwake=0</string>
+                    <string>alcid=11 debug=0x100 keepsyms=1 darkwake=0 igfxfcms=1 -igfxxbls</string>
                     <key>booter-fileset-basesystem</key>
                     <data>AA==</data>
                     <key>booter-fileset-kernel</key>
@@ -1358,23 +1619,23 @@
                 <key>AdviseFeatures</key>
                 <false/>
                 <key>MLB</key>
-                <string>C02948501CDKN2RA8</string>
+                <string>C02837303GUJ1JH8C</string>
                 <key>MaxBIOSVersion</key>
                 <false/>
                 <key>ProcessorType</key>
                 <integer>0</integer>
                 <key>ROM</key>
-                <data>QRVzNRc4</data>
+                <data>0umT1KaJ</data>
                 <key>SpoofVendor</key>
                 <true/>
                 <key>SystemMemoryStatus</key>
                 <string>Auto</string>
                 <key>SystemProductName</key>
-                <string>MacBookAir8,1</string>
+                <string>MacBookPro14,3</string>
                 <key>SystemSerialNumber</key>
-                <string>C02ZR0APJK78</string>
+                <string>C02XD0NZHTD5</string>
                 <key>SystemUUID</key>
-                <string>D5B47B61-5F4E-44D8-A453-A7E268E70077</string>
+                <string>8E0DFEDF-3F81-4D83-A0AB-C3DE4138D1D5</string>
             </dict>
             <key>UpdateDataHub</key>
             <true/>
@@ -1628,6 +1889,8 @@
                 <true/>
                 <key>ResizeGpuBars</key>
                 <integer>-1</integer>
+                <key>ResizeUsePciRbIo</key>
+                <false/>
                 <key>TscSyncTimeout</key>
                 <integer>0</integer>
                 <key>UnblockFsConnect</key>
