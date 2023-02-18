@@ -42,7 +42,7 @@ You can find the MacOS installation guide at the following link, [`click here`](
 Since Ventura there are sometimes graphics glitches and the brightness control is only available after a sleep cycle!
 
 ## What's not Working?
-- NOTHING!!!
+- HDMI and DisplayPort an the Laptop and also no Video Output on the Dock
 
 ## Credits:
 - [Dortania](https://dortania.github.io/OpenCore-Install-Guide/)
