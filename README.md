@@ -44,7 +44,7 @@ You can find the MacOS installation guide at the following link, [`click here`](
 - Sometimes Laptop Wakes up from sleep and Bios is Resettet
 
 ## What's not Working?
-- HDMI and DisplayPort an the Laptop and also no Video Output on the Dock
+- HDMI and DisplayPort in the Laptop and also no Video Output on the Dock
 - OnBord Mic dose not work
 
 ## Credits:
