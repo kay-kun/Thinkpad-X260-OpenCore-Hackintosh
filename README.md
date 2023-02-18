@@ -9,7 +9,7 @@ Wireless Card | Dell DW1560 (BCM94352Z) 802.11ac WiFi + BT Card
 Bootloader | OpenCore
 Bootloader Ver. | v0.9.0
 
-There a planed upgrades like 16 or 32 GB RAM, Fenvi Broadcom WiFi Card for nativ Wifi and BT and a NVME SSD
+There a planed upgrades like 16 or 32 GB RAM, Fenvi Broadcom WiFi Card for nativ Wifi and BT (and a NVME SSD if its possible to put it in the WWAN m.2 Slot?)
 
 ### Before you start
 Follow dortania guide on how to create a recovery usb for MacOS installation.
