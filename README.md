@@ -23,6 +23,7 @@ You can find the MacOS installation guide at the following link, [`click here`](
 - Bigsur (Tested, OpenCore)
 
 > The current EFI supports Ventura out of box but, for older Ones use Monterey or Older Folder.
+> The Monterey or Older Folder is on OpenCore 0.8.9 and will no longer recive updates from me
 
 ## What's Working?
 - QE/CI Intel HD Graphics 520 `BigSur` `Monterey` `Ventura with Spoof to 630`
