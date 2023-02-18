@@ -7,7 +7,7 @@ Memory | SK-Hynix 8GB DDR4
 Storage | 256GB Intel SATA SSD
 Wireless Card | Dell DW1560 (BCM94352Z) 802.11ac WiFi + BT Card
 Bootloader | OpenCore
-Bootloader Ver. | v0.8.9
+Bootloader Ver. | v0.9.0
 
 There a planed upgrades like 16 or 32 GB RAM, Fenvi Broadcom WiFi Card for nativ Wifi and BT and a NVME SSD
 
