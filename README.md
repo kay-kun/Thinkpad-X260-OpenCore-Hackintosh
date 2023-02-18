@@ -38,6 +38,7 @@ You can find the MacOS installation guide at the following link, [`click here`](
 - Camera `BigSur` `Monterey` `Ventura`
 - Dock station `BigSur` `Monterey` `Ventura`
 - CardReader `BigSur` `Monterey` `Ventura`
+- YogaSMC (With the Helper App) `BigSur` `Monterey` `Ventura`
 - etc
 
 ## Some little Problems!!!
