@@ -3,6 +3,7 @@ Specification | Configuration
 ----------- | -----------
 Processor | Intel Core i7-6500U
 Integrated Graphics | Intel HD Graphics 520
+Integrated Display | 1920x1080 FHD Display
 Memory | SK-Hynix 8GB DDR4
 Storage | 512GB Samsung SATA SSD
 Wireless Card | Dell DW1560 (BCM94352Z) 802.11ac WiFi + BT Card
