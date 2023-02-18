@@ -39,8 +39,8 @@ You can find the MacOS installation guide at the following link, [`click here`](
 - etc
 
 ## Some little Problems!!!
-Since Ventura there are sometimes graphics glitches and the brightness control is only available after a sleep cycle!
-Sometimes Laptop Wakes up from sleep and Bios is Resettet
+- Since Ventura there are sometimes graphics glitches and the brightness control is only available after a sleep cycle!
+- Sometimes Laptop Wakes up from sleep and Bios is Resettet
 
 ## What's not Working?
 - HDMI and DisplayPort an the Laptop and also no Video Output on the Dock
