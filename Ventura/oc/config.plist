@@ -1568,7 +1568,7 @@
                     <key>SystemAudioVolume</key>
                     <data>Rg==</data>
                     <key>boot-args</key>
-                    <string>alcid=11 debug=0x100 keepsyms=1 darkwake=0 igfxfcms=1 -igfxxbls</string>
+                    <string>debug=0x100 keepsyms=1 darkwake=0 igfxfcms=1 -igfxbls</string>
                     <key>booter-fileset-basesystem</key>
                     <data>AA==</data>
                     <key>booter-fileset-kernel</key>
@@ -1637,23 +1637,23 @@
                 <key>AdviseFeatures</key>
                 <false/>
                 <key>MLB</key>
-                <string>C028071004NJ1JH1F</string>
+                <string>C02946609CDHWVPFB</string>
                 <key>MaxBIOSVersion</key>
                 <false/>
                 <key>ProcessorType</key>
                 <integer>0</integer>
                 <key>ROM</key>
-                <data>oH0DKkeo</data>
+                <data>WHq8jfGz</data>
                 <key>SpoofVendor</key>
                 <true/>
                 <key>SystemMemoryStatus</key>
                 <string>Auto</string>
                 <key>SystemProductName</key>
-                <string>MacBookPro14,3</string>
+                <string>MacBookPro14,1</string>
                 <key>SystemSerialNumber</key>
-                <string>C02W83Z8HTD5</string>
+                <string>C02ZPNY9HV29</string>
                 <key>SystemUUID</key>
-                <string>B38C1CB2-6715-4E84-9C88-0201617CA2A5</string>
+                <string>D48666D4-50E5-42EE-AC75-7AE5AC0ABE50</string>
             </dict>
             <key>UpdateDataHub</key>
             <true/>
