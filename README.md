@@ -52,6 +52,7 @@ You can find the MacOS installation guide at the following link, [`click here`](
 
 ## If you want to Help me to get to a 100% Perfect EFI i have added all my BIOS Settings in the PDF file and also a Clean ACPI and Vidio BIOS Dump
 - You want to Help me and others you can do this in my Forums Thred on Hackintosh-Forum.de (Warning this is in German)
+- https://www.hackintosh-forum.de/forum/thread/57946-lenovo-x260-ben%C3%B6tigt-hilfe-im-feinschliff
 
 ## Credits:
 - [Dortania](https://dortania.github.io/OpenCore-Install-Guide/)
