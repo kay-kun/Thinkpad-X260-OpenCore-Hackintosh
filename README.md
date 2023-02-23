@@ -4,15 +4,16 @@ Specification | Configuration
 Processor | Intel Core i7-6500U
 Integrated Graphics | Intel HD Graphics 520
 Integrated Display | 1920x1080 FHD Display
-Memory | SK-Hynix 8GB DDR4
+Memory | mushkin 16GB DDR4 2133Mhz CL15
 Storage | 512GB Samsung SATA SSD
-Wireless Card | Dell DW1560 (BCM94352Z) 802.11ac WiFi + BT Card
+Wireless Card | Fenvi BCM94360NG
 Bootloader | OpenCore
 Bootloader Ver. | v0.9.0
 System Ver. | 13.2.1 Ventura
 SMBIOS | MacBookPro14,1
+EFI-BIOS Ver. | 1.49
 
-There a planed upgrades like 16 GB RAM, Fenvi Broadcom WiFi Card for nativ Wifi and BT (and a NVME SSD if its possible to put it in the WWAN m.2 Slot?)
+There is a planed upgrade i want if it is possible a NVME SSD in the WWAN m.2 Slot?
 
 ### Before you start
 Follow dortania guide on how to create a recovery usb for MacOS installation.
@@ -29,7 +30,7 @@ You can find the MacOS installation guide at the following link, [`click here`](
 > The Monterey or Older Folder is on OpenCore 0.8.9 and will no longer recive updates from me
 
 ## What's Working?
-- QE/CI Intel HD Graphics 520 `BigSur` `Monterey` `Ventura with Spoof to 630`
+- QE/CI Intel HD Graphics 520 `BigSur` `Monterey` `Ventura with Spoof to HD620`
 - OnBord HDMI `BigSur` `Monterey` `Ventura`
 - Power Management `BigSur` `Monterey` `Ventura`
 - Sleep, Shutdown, Restart `BigSur` `Monterey` `Ventura`
@@ -48,10 +49,10 @@ You can find the MacOS installation guide at the following link, [`click here`](
 
 
 ## Some little Problems!!!
-- Since Ventura there are sometimes graphics glitches and the brightness control is only available after a sleep cycle!
+- The brightness control is only available after a sleep cycle
 - Video Out via Docking Staion is also only available after Sleep
 - Video Out via OnBoard MiniDisplayPort is also only available after Sleep
-- Sometimes Laptop Wakes up from sleep and Bios is Resettet
+- I need to narrow the RTCMemoryFixup region to exclude at the moment i use 00-FF
 
 ## If you want to Help me to get to a 100% Perfect EFI i have added all my BIOS Settings in the PDF file and also a Clean ACPI and Vidio BIOS Dump
 - You want to Help me and others you can do this in my Forums Thred on Hackintosh-Forum.de (Warning this is in German)
