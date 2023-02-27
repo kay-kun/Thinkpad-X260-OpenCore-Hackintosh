@@ -26,6 +26,8 @@ You can find the MacOS installation guide at the following link, [`click here`](
 - Monterey (Tested, OpenCore)
 - Bigsur (Tested, OpenCore)
 
+- The EFI is able to Boot all 3 Systems with QE/CI
+
 ## What's Working?
 - QE/CI Intel HD Graphics 520 `BigSur` `Monterey` `Ventura with Spoof to HD620`
 - OnBord HDMI `BigSur` `Monterey` `Ventura`
