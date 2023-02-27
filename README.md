@@ -26,9 +26,6 @@ You can find the MacOS installation guide at the following link, [`click here`](
 - Monterey (Tested, OpenCore)
 - Bigsur (Tested, OpenCore)
 
-> The current EFI supports Ventura out of box but, for older Ones use Monterey or Older Folder.
-> The Monterey or Older Folder is on OpenCore 0.8.9 and will no longer recive updates from me
-
 ## What's Working?
 - QE/CI Intel HD Graphics 520 `BigSur` `Monterey` `Ventura with Spoof to HD620`
 - OnBord HDMI `BigSur` `Monterey` `Ventura`
@@ -47,12 +44,10 @@ You can find the MacOS installation guide at the following link, [`click here`](
 - YogaSMC (With the Helper App) `BigSur` `Monterey` `Ventura`
 - Keyboard Mapp for Volume, Brightness and Mute Controll `BigSur` `Monterey` `Ventura`
 
-
 ## Some little Problems!!!
 - The brightness control is only available after a sleep cycle
 - Video Out via Docking Staion is also only available after Sleep
 - Video Out via OnBoard MiniDisplayPort is also only available after Sleep
-- I need to narrow the RTCMemoryFixup region to exclude at the moment i use 00-FF
 
 ## If you want to Help me to get to a 100% Perfect EFI i have added all my BIOS Settings in the PDF file and also a Clean ACPI and Vidio BIOS Dump
 - You want to Help me and others you can do this in my Forums Thred on Hackintosh-Forum.de (Warning this is in German)
